@@ -1,2 +1,139 @@
-<h1>Hello World!</h1>
-<a href="https://github.com/DemoSeine/DemoSeine.com">Edit on GitHub</a>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo Seine | Meetup for Programming Enthusiasts</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Demo Seine</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#events">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="jumbotron text-center">
+    <div class="container">
+      <h1 class="display-4">Welcome to Demo Seine</h1>
+      <p class="lead">A local meetup in Rouen for programming enthusiasts</p>
+      <a href="#events" class="btn btn-primary btn-lg">Upcoming Events</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>About Us</h2>
+          <p>At Demo Seine, we are passionate about programming and creating a community of learners. Our meetup brings together like-minded individuals who love to explore new technologies, share knowledge, and collaborate on exciting projects.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="banner.png" alt="About" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events Section -->
+  <section id="events" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Upcoming Events</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="images/event1.jpg" alt="Event 1" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Tech Talk: Lorem Ipsum</h5>
+              <p class="card-text">Lorem Ipsum Dolor Sit ....</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="images/event2.jpg" alt="Event 2" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Workshop: Introduction to Lorem Ipsum</h5>
+              <p class="card-text">Lorem Ipsum Dolor Sit ....</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="images/event3.jpg" alt="Event 3" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Hackathon: Lorem Ipsum</h5>
+              <p class="card-text">Lorem Ipsum Dolor Sit ....</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Us</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <h5>Contact Information</h5>
+          <p>Email: ...@....com</p>
+          <p>Address: Rouen, France</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-center text-white py-3">
+    <div class="container">
+      <p>© 2023 Demo Seine. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
